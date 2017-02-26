@@ -1339,5 +1339,19 @@ a {
   }
 }
 
+.reveal-item {
+	opacity: 0;
+	-webkit-transition: all 1s ease-out;
+	transition: all 1s ease-out;
+	-webkit-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+
+.reveal-item__visible {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
 
 
